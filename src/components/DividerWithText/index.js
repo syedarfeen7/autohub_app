@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 const DividerWithText = ({text}) => {
@@ -14,9 +15,8 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     width: '65%',
-    // borderColor: '#ccc',
-    // borderWidth: 2,
-    marginTop: 120,
+    marginTop: 100,
+    alignSelf: "center"
   },
   line: {
     backgroundColor: '#ccc',
