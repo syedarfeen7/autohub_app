@@ -13,7 +13,8 @@ import CustomButton from '../../components/Button';
 import DividerWithText from '../../components/DividerWithText';
 import SocialIcons from '../../components/shared/SocialIcons';
 
-const Login = () => {
+const Login = ({route}) => {
+  console.log('===> route', route);
   return (
     <View style={styles.container}>
       <View style={styles.logoWrapper}>
